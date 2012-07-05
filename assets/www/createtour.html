@@ -1,0 +1,43 @@
+<div data-role="page" id="createtourpage">
+
+	<div data-role="header">
+		<h1>Geolocation</h1>
+	</div>
+
+	<div data-role="content">	
+		<div data-role="controlgroup">
+	    	<a id="currentLink" data-role="button">Get Current Location</a>  
+	    	<a id="startTrackingLink" data-role="button">Start Tracking</a>   
+	    	<a id="stopTrackingLink" data-role="button">Stop Tracking</a>  
+	    	<a id="getDataLink" data-role="button">Send the data! </a>  
+	    </div>    
+	    
+	    <div data-role="fieldcontain">
+	    
+	      <fieldset data-role="controlgroup">
+                <label for="tourname">
+                   Tour name
+                </label>
+                <input type="text" id="tourname" placeholder=""/>
+            </fieldset>
+            
+             <fieldset data-role="controlgroup">
+                <label for="title">
+                    Title
+                </label>
+                <input type="text" id="title" placeholder=""/>
+            </fieldset>
+            
+            <fieldset data-role="controlgroup">
+                <label for="descr">
+                    Description
+                </label>
+                <textarea id="descr" placeholder="">
+                </textarea>
+            </fieldset>
+        </div>
+
+		<div id="status"></div>
+		
+	</div>
+</div>
